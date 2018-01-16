@@ -1,0 +1,51 @@
+
+body {
+  font-family: sans-serif;
+  background: #333;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  &:hover {
+    color: orange;
+  }
+  .filled {
+    color: default;
+  }
+}
+
+.hide {
+  display: none;
+};
+
+.three-column-grid {
+  .grid-item {
+    width: 33.33333%;
+    float: left;
+  }
+}
+
+#board {
+  max-width: 800px;
+  .tile-row {
+
+    .tile {
+      font-size: 6em;
+      text-align: center;
+    }
+  }
+}
+
+.bottom-pane {
+  max-width: 800px;
+  text-align: center;
+  font-size: 1.7em;
+}
+
+.reset-btn {
+  background: none;
+  border: none;
+  color: white;
+}
